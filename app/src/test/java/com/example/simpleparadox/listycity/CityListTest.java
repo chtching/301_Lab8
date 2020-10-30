@@ -87,7 +87,7 @@ class CityListTest {
         });
     }
 
-    @Test
+    @Test //Now change so that it passes
     void testCountCities() {
         CityList cityList = mockCityList();
 

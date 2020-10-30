@@ -87,10 +87,10 @@ class CityListTest {
         });
     }
 
-    @Test //Create test that fails
+    @Test //Now change so that it passes
     void testCountCities() {
         CityList cityList = mockCityList();
 
-        assertEquals(5, cityList.countCities());
+        assertEquals(1, cityList.countCities());
     }
 }
